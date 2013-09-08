@@ -10,9 +10,8 @@
 	<div class="navbar navbar-fixed-top">
   		<div class="navbar-inner">
   			<div class="container">
-  				<a class="brand" href="#">memoreel</a>
+  				<a class="brand" href="#">Treehouse</a>
     				<ul class="nav">
-     					 <li class="active"><a href="#">Home</a></li>
      					 <li><%= link_to "All Statuses", statuses_path %></li> 
    				    </ul>
   			</div>
@@ -20,6 +19,8 @@
 	</div>
 
 <div class="container">
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
     <%= yield %>
 </div>
 
